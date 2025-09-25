@@ -53,19 +53,6 @@ namespace MockDataGenerator
             new Endpoint(HttpMethods.Get, DevicePortal.MrcFileListApi),
             new Endpoint(HttpMethods.Get, DevicePortal.MrcStatusApi),
             new Endpoint(HttpMethods.Get, DevicePortal.ThermalStageApi),
-
-            // Xbox One specific endpoints
-            new Endpoint(HttpMethods.Get, DevicePortal.XboxLiveUserApi),
-            new Endpoint(HttpMethods.Get, DevicePortal.XboxSettingsApi),
-            new Endpoint(HttpMethods.Get, DevicePortal.XboxLiveSandboxApi),
-
-            // IoT specific endpoints
-            new Endpoint(HttpMethods.Get, DevicePortal.IoTOsInfoApi),
-            new Endpoint(HttpMethods.Get, DevicePortal.TimezoneInfoApi),
-            new Endpoint(HttpMethods.Get, DevicePortal.DateTimeInfoApi),
-            new Endpoint(HttpMethods.Get, DevicePortal.DisplayOrientationApi),
-            new Endpoint(HttpMethods.Get, DevicePortal.DeviceNameApi),
-            new Endpoint(HttpMethods.Get, DevicePortal.DisplayResolutionApi),
         };
 
         /// <summary>

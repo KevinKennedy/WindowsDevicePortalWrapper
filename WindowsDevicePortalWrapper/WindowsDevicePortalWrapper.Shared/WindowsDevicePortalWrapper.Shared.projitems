@@ -48,23 +48,6 @@
     <Compile Include="$(MSBuildThisFileDirectory)HttpRest\RestPut.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)HttpRest\WebSocket.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Interfaces\IDevicePortalConnection.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)IoT\BluetoothConnectivity.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)IoT\Limpet.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)IoT\ApplicationManager.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)IoT\AudioDevices.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)IoT\ProcessManagement.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)IoT\IcsManager.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)IoT\IoTOnboarding.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)IoT\RemoteSettings.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)IoT\DeviceInfo.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)IoT\WindowsUpdate.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Utilities.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Xbox\XboxLiveSandbox.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Xbox\SmbShare.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Xbox\UserManagement.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Xbox\XboxAppDeployment.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Xbox\FiddlerSetup.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Xbox\XboxMediaCapture.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Xbox\XboxSettings.cs" />
   </ItemGroup>
 </Project>

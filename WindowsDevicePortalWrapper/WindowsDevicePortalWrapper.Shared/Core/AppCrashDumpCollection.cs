@@ -68,7 +68,7 @@ namespace Microsoft.Tools.WindowsDevicePortal
                 CrashDumpFileApi,
                 string.Format("packageFullName={0}&fileName={1}", crashdump.PackageFullName, crashdump.Filename));
         }
-
+#if NO
         /// <summary>
         /// Get the crash settings for a sideloaded app. 
         /// </summary>
@@ -78,7 +78,7 @@ namespace Microsoft.Tools.WindowsDevicePortal
         {
             return await this.GetAppCrashDumpSettingsAsync(app.PackageFullName);
         }
-
+#endif
         /// <summary>
         /// Get the crash settings for a sideloaded app. 
         /// </summary>
@@ -90,7 +90,7 @@ namespace Microsoft.Tools.WindowsDevicePortal
                 CrashDumpSettingsApi,
                 string.Format("packageFullName={0}", packageFullname));
         }
-
+#if NO
         /// <summary>
         /// Set the crash settings for a sideloaded app. 
         /// </summary>
@@ -102,7 +102,7 @@ namespace Microsoft.Tools.WindowsDevicePortal
             string pfn = app.PackageFullName;
             await this.SetAppCrashDumpSettingsAsync(pfn, enable);
         }
-
+#endif
         /// <summary>
         /// Set the crash settings for a sideloaded app. 
         /// </summary>

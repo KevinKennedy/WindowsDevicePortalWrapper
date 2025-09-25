@@ -13,7 +13,7 @@ namespace Microsoft.Tools.WindowsDevicePortal
 {
     /// <summary>
     /// Default implementation of the IDevicePortalConnection interface.
-    /// This implementation is designed to be compatibile with all device families.
+    /// This implementation is designed to be compatible with all device families.
     /// </summary>
     public class DefaultDevicePortalConnection : IDevicePortalConnection
     {
